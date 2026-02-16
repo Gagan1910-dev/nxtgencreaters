@@ -1,0 +1,39 @@
+:root {
+    /* Colors - Deep Blue/Violet Theme */
+    --bg-color: #0f172a;
+    --text-color: #f8fafc;
+    --text-muted: #94a3b8;
+
+    --primary-color: #6366f1;
+    /* Indigo 500 */
+    --primary-hover: #4f46e5;
+    --accent-color: #ec4899;
+    /* Pink 500 */
+
+    --glass-bg: rgba(30, 41, 59, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    /* Typography */
+    --font-family: 'Inter', sans-serif;
+
+    /* Spacing */
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+
+    /* Radius */
+    --radius-md: 12px;
+    --radius-lg: 24px;
+
+    /* Smooth Theme Transition */
+    transition: --primary-color 0.3s ease, --accent-color 0.3s ease, background-color 0.3s ease;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    margin: 0;
+    overflow-x: hidden;
+}
